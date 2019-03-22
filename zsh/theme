@@ -13,7 +13,7 @@ else
 fi
 
 USER_PROMPT="%{$fg[cyan]%}[$USERCOLORED%{$fg[yellow]%}@%{$fg[white]%}$(instanceid)%{$fg[cyan]%}]%{$reset_color%}"
-AGENT_PROMPT="%{$fg[purple]%}[$(agent_version)]%{$reset_color%}"
+AGENT_PROMPT="%{$fg[green]%}[$(agent_version)]%{$reset_color%}"
 
 if [ "$(environmentuc)" != "PROD" ]; then
     ENV_PROMPT="%{$fg[cyan]%}[%{$bg[white]%}%{$fg_bold[black]%}$(environmentuc)%k%b%{$fg[cyan]%}]%{$reset_color%}"
